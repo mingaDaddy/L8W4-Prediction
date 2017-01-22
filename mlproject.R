@@ -109,4 +109,3 @@ performanceTable <- data.frame("model" = c("rf","dt","c50"),
                                "sample error" = c(rfsampleError,
                                                   dtsampleError,
                                                   c50sampleError))
-
