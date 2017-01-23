@@ -1,11 +1,10 @@
 ---
-title: "Untitled"
+title: "Human Activity Recognition"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# HTML version of this document
+This page[https://mingadaddy.github.io/L8W4-Prediction/gh-pages/] includes a 
 
 ## Executive Summary
 
