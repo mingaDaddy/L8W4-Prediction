@@ -4,7 +4,7 @@ output: github_document
 ---
 
 # HTML version of this document
-This page[https://mingadaddy.github.io/L8W4-Prediction/gh-pages/] includes a 
+[This page](https://mingadaddy.github.io/L8W4-Prediction/gh-pages/) (located in github.io) contains an HTML version of this document, where performance and prediction tables are evaluated. 
 
 ## Executive Summary
 
