@@ -26,7 +26,7 @@ body {
 
 <body>
 
-<h1 id="untitled">Untitled</h1>
+<h1 id="untitled">Human Activity Recognition - Predicting wrong exercising techniques</h1>
 <h2 id="executive-summary">Executive Summary</h2>
 <p>Given two datasets (<em>pml-training.csv</em> and <em>pml-testing.csv</em>) correspongding to the study of <strong>Human Activity Recognition</strong> performed by Velloso, E et al., we developed three diferent predicting models (random forest, decission tree and Quinlans C5.0).</p>
 <p>All three models were cross-validated with 30% of the data included in the training dataset. Duration of training, sample error, accuracy and correctly predicted variables from the testing dataset were also noted down to determine which of the three models performed at best.</p>
@@ -194,7 +194,7 @@ performanceTable &lt;-<span class="st"> </span><span class="kw">data.frame</span
 
 performanceTable</code></pre></div>
 <pre><code>##   model model.Accuracy training.Duration correctly.Assigned sample.error
-## 1    rf      0.9957519          1.138204                 20  0.004248088
+## 1    rf      0.9957519         75.138204                 20  0.004248088
 ## 2    dt      0.7121495          5.399517                 12  0.287850467
 ## 3   c50      0.9634664          6.364980                 20  0.036533560</code></pre>
 <p>From the table above we observe that although the random forest has slightly better figures in matter of sample error and model accuracy than the Quilian's c5.0, the duration of training is considerable bigger (random forest is 950% slower than Quilian's Algorythm).</p>
